@@ -9,7 +9,7 @@ from __future__ import print_function
 import numpy as np
 import torch as ch
 
-from attacks.blackbox.black_box_attack import BlackBoxAttack
+from src.attacks.blackbox.black_box_attack import BlackBoxAttack
 from utils.compute_fcts import lp_step, sign
 
 
